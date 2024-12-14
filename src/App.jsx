@@ -1,5 +1,10 @@
-import { BrowserRouter } from "react-router-dom";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MainLayout from "./layout/MainLayout.jsx";
+import Home from "./pages/Home.jsx";
+import AboutUs from "./pages/AboutUs.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import Exhibition from "./pages/Exhibition.jsx";
+import Artists from "./pages/Artists.jsx";
 function App() {
   return (
     <>
