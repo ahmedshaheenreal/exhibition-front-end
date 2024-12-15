@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.imgContainer {
+  max-height: 300px;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2 {
+  font-size: 1.5rem;
+}
+
+.p {
+  font-size: 18px;
+  margin-block: 5px;
+}
+
+.p span {
+  line-height: 1.5;
+}
