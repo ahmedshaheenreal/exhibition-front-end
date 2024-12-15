@@ -18,13 +18,13 @@ export const Navbar = () => {
         <div className={`${styles.navbarLinks} ${menuOpen ? styles.open : ""}`}>
           <nav className={`${styles.navbar} `}>
             <div className={`${styles.group} ${styles.groupLeft}`}>
-              <NavLink href="/">Exhibition</NavLink>
-              <NavLink href="/">Artists </NavLink>
-              <NavLink href="/">About us</NavLink>
+              <NavLink to="/exhibition">Exhibition</NavLink>
+              <NavLink to="/">Artists </NavLink>
+              <NavLink to="/">About us</NavLink>
             </div>
             <div className={`${styles.group} ${styles.groupRight}`}>
-              <NavLink href="/">Search</NavLink>
-              <NavLink href="/">login</NavLink>
+              <NavLink to="/">Search</NavLink>
+              <NavLink to="/">login</NavLink>
             </div>
           </nav>
         </div>
